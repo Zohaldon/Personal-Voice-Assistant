@@ -1,0 +1,88 @@
+body {
+    background-color: #141414;
+}
+
+h1{
+    text-align: center;
+    color: #1e88e5;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 5px;
+}
+a{
+    font-family: 'Coming Soon', cursive;
+    font-size: 1em;
+}
+.copyright 
+{
+    color:white;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.user-speech {
+    display: block;
+    height: 380px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #311b92;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.you-said {
+    text-align: center;
+    color: gold;
+    font-family: 'Comfortaa', cursive;
+    padding-top: 20px;
+}
+
+.usercommand
+{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+#voiceSelect{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+/*centering the option menu and language icon*/
+#voiceSelect{
+    margin-top: 18%; 
+    margin-left: 33%;
+}
+.languagepanel{
+    height: 50px;
+    width: 50px;
+    float: right;
+    margin-top: -60px;
+}
+/*Positioning icon*/
+.recogniton-activator {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.recogniton-activated {
+    margin-left: -6.53em;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+/*=========================Voice Activator Hover======================================*/
+.image-icon 
+{
+    display: inline-block;
+    margin-left: 46%;
+}
+
+.image-icon .recogniton-activated {
+    display: none;
+}
+
+.image-icon:hover .recogniton-activated {
+    display: inline;    
+}

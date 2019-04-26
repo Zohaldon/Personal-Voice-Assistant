@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/listofcommands.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+        <link rel=icon href="images/voice.png" sizes="16x16" type="images/png">
+        <title>Personal Assistant</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Parth Chandgadhiya">
+    </head>
+    <body>
+        <div class="container">
+            <!--Single line containing header, info and list of voices-->
+            <span>
+                <span class="ipanel">
+                    <img class="infopanel" style="cursor:pointer" onclick="openNav()" src="images/info.png" />
+                </span>
+                <h1>Personal Assistant</h1>
+                <span class="lpanel">
+                    <img class="languagepanel" style="cursor:pointer" onclick="showOptions()" src="images/lang.png" />
+                </span>
+            </span>
+
+            <!--List of Commands-->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <h1 id='askme'>You can ask ...</h1>
+                    <a>What is the time?</a>
+                    <a>What is the today's date?</a>
+                    <a>What is today?</a>
+                    <a>Weather in [Toronto, xyz...]</a>
+                    <a>Open [Apple.ca, xyz...]</a>
+                    <a>Search [xyz..]</a>
+                    <a>Who is [Bill Gates, xyz...]</a>
+                    <a>Information about [dog, xyz..]</a>
+                    <a>Youtube [xyz..]</a>
+                    <a>Where is [Germany, xyz...]</a>
+                    <a>Let's buy [raincoat, xyz...]</a>
+                </div>
+            </div>
+
+            <!--User's Display-->
+            <div class="user-speech">
+                <h2 class="you-said">You said: </br><span class="usercommand">Nothing</span></h2>
+                <select style="display:none;" id="voiceSelect" ></select>
+            </div>
+            <audio class="sound" src="assets/sound/va.mp3"></audio>
+        </div>
+        <div class="image-icon">
+            <img class="recogniton-activator" style="cursor:pointer" src="images/va.png" />
+            <img class="recogniton-activated"  style="cursor:pointer" src="images/vahover.png" />
+        </div>   
+        <p class="copyright">&copy; Parth Chandgadhiya - 2018</p>
+        <script src="js/Recognition.js"></script>
+    </body>
+</html>
