@@ -22,10 +22,10 @@ This particular version of my voice AI can do Following set off commands:
 <img src="screenshot/2.PNG" /><br/>
 
 ## Ai Voice Menu
-<img src="screenshot/4.PNG" /><br/>
+<img src="screenshot/4.png" /><br/>
 
 ## Ai Voice list
-<img src="screenshot/8.PNG" /><br/>
+<img src="screenshot/8.png" /><br/>
 
 ## Serach Result
 <img src="screenshot/6.PNG" /><br/> 
