@@ -20,3 +20,15 @@ This particular version of my voice AI can do Following set off commands:
 
 ## Info
 <img src="screenshot/2.PNG" /><br/>
+
+## Ai Voice Menu
+<img src="screenshot/4.PNG" /><br/>
+
+## Ai Voice list
+<img src="screenshot/8.PNG" /><br/>
+
+## Serach Result
+<img src="screenshot/6.PNG" /><br/> 
+
+## On Screen result for user's speech
+<img src="screenshot/7.PNG" /><br/>
