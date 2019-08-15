@@ -14,3 +14,9 @@ This particular version of my voice AI can do Following set off commands:
 8. give answer in 19+ international languages.
 9. translate words from one language to another
 10. simple yet eye catching UI.
+
+## Main Page
+<img src="screenshot/1.png" /><br/>
+
+## Info
+<img src="screenshot/2.png" /><br/>
