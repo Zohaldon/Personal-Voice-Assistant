@@ -16,7 +16,7 @@ This particular version of my voice AI can do Following set off commands:
 10. simple yet eye catching UI.
 
 ## Main Page
-<img src="screenshot/1.png" /><br/>
+<img src="screenshot/1.PNG" /><br/>
 
 ## Info
-<img src="screenshot/2.png" /><br/>
+<img src="screenshot/2.PNG" /><br/>
